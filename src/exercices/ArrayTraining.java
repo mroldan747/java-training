@@ -135,7 +135,6 @@ public class ArrayTraining {
      * are equals, eg: false
      */
     public boolean equals(int[] first, int[] second) {
-        
         for (int i = 0; i < second.length; i++) {
             if (first[i] !=  second[i]){
                 return false;
